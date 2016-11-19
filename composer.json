@@ -1,0 +1,17 @@
+{
+    "name": "loicjazon/plugins-wordpress-duedate",
+    "authors": [
+        {
+            "name": "Loic Jazon",
+            "email": "contact@loicjazon.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Duedate\\": "src/Duedate/"
+        }
+    },
+    "require": {
+        "nesbot/carbon": "^1.21"
+    }
+}
